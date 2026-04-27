@@ -30,12 +30,12 @@ python --version
 cd D:\MyProjects
 
 # Clone repository
-git clone https://github.com/yourusername/ai-agent-computer-use.git
+git clone https://github.com/khoadeptrai030-cmyk/ai-agent-computer-use.git
 cd ai-agent-computer-use
 ```
 
 Hoặc tải ZIP:
-- Vào [GitHub](https://github.com/yourusername/ai-agent-computer-use)
+- Vào [GitHub](https://github.com/khoadeptrai030-cmyk/ai-agent-computer-use.git)
 - Click **Code** → **Download ZIP**
 - Giải nén
 
@@ -120,7 +120,7 @@ brew install python@3.11
 
 ```bash
 cd ~/Desktop
-git clone https://github.com/yourusername/ai-agent-computer-use.git
+git clone https://github.com/khoadeptrai030-cmyk/ai-agent-computer-use.git
 cd ai-agent-computer-use
 ```
 
@@ -228,7 +228,7 @@ sudo dnf install \
 
 ```bash
 cd ~/projects
-git clone https://github.com/yourusername/ai-agent-computer-use.git
+git clone https://github.com/khoadeptrai030-cmyk/ai-agent-computer-use.git
 cd ai-agent-computer-use
 
 python3 -m venv .venv
@@ -435,7 +435,7 @@ LOG_LEVEL=DEBUG python main.py
 
 ### Windows
 ```bash
-git clone https://github.com/yourusername/ai-agent-computer-use.git
+git clone https://github.com/khoadeptrai030-cmyk/ai-agent-computer-use.git
 cd ai-agent-computer-use
 python -m venv .venv
 .venv\Scripts\activate
@@ -445,7 +445,7 @@ python main.py
 
 ### macOS/Linux
 ```bash
-git clone https://github.com/yourusername/ai-agent-computer-use.git
+git clone https://github.com/khoadeptrai030-cmyk/ai-agent-computer-use.git
 cd ai-agent-computer-use
 python3 -m venv .venv
 source .venv/bin/activate

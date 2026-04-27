@@ -23,7 +23,7 @@ Cảm ơn bạn quan tâm đến dự án này! Hướng dẫn này sẽ giúp b
 
 - [README.md](./README.md) - Hiểu project tổng quát
 - [GETTING_STARTED.md](./GETTING_STARTED.md) - Quick start
-- [Architecture](./README.md#-kiến-trúc) - Cấu trúc code
+- [DETAILED_INSTRUCTIONS](./INSTALLATION.md#-cài đặt) - cách cài đặt
 
 ### Hiểu Codebase
 
@@ -36,8 +36,7 @@ ai-agent-computer-use/
 ├── server.py         # Web dashboard
 ├── config.py         # Global config
 ├── requirements.txt  # Dependencies
-├── README.md         # Documentation
-└── tests/            # Unit tests
+└── README.md         # Documentation
 ```
 
 ### Commit Lần Đầu
@@ -47,17 +46,25 @@ Fork dự án trước khi làm thay đổi:
 ```bash
 # 1. Fork trên GitHub (click Fork button)
 
-# 2. Clone fork của bạn
-git clone https://github.com/YOUR_USERNAME/ai-agent-computer-use.git
-cd ai-agent-computer-use
+# 1. Fork repository trên GitHub (nhấn nút Fork)
 
-# 3. Add upstream remote
-git remote add upstream https://github.com/ORIGINAL_OWNER/ai-agent-computer-use.git
+# 2. Clone fork của bạn về máy
+git https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use
+cd AI-Agent-Computer-Use
+git remote add upstream https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use.git
 
-# 4. Verify
+
+# 3. Thêm upstream để đồng bộ từ repo gốc
+git remote add upstream https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use.git
+
+# 4. Kiểm tra remote
 git remote -v
-# origin    https://github.com/YOUR_USERNAME/ai-agent-computer-use.git (fetch)
-# upstream  https://github.com/ORIGINAL_OWNER/ai-agent-computer-use.git (fetch)
+
+# Kết quả mẫu:
+# origin    https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use.git (fetch)
+# origin    https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use.git (push)
+# upstream  https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use.git (fetch)
+# upstream  https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use.git (push)
 ```
 
 ---
@@ -68,8 +75,8 @@ git remote -v
 
 Chọn một trong các cách:
 
-1. **[Issues](https://github.com/yourusername/ai-agent-computer-use/issues)** - Bugs cần fix hoặc features cần implement
-2. **[Discussions](https://github.com/yourusername/ai-agent-computer-use/discussions)** - Ý tưởng mới
+1. **[Issues](https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use/issues)** - Bugs cần Fix hoặc features cần implement
+2. **[Discussions](https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use/discussions)** - Ý tưởng mới
 3. **Your own ideas** - Có ý tưởng của riêng bạn? Mở Issue trước!
 
 ### Các Loại Đóng Góp
@@ -78,14 +85,14 @@ Chọn một trong các cách:
 
 ```bash
 # Tạo branch
-git checkout -b fix/bug-description
-# Ví dụ: fix/agent-click-coordinates
+git checkout -b Fix/bug-description
+# Ví dụ: Fix/agent-click-coordinates
 
 # Fix bug
 # ... edit files ...
 
 # Commit
-git commit -m "Fix: [module] description of fix"
+git commit -m "Fix: [module] description of Fix"
 ```
 
 #### 2️⃣ New Features
@@ -256,8 +263,8 @@ Related to #related_issues
 
 ### Types
 
-- `fix:` - Bug fix
-- `feat:` - New feature
+- `Fix:` - Bug Fix
+- `Feat:` - New feature
 - `docs:` - Documentation
 - `test:` - Tests
 - `refactor:` - Code refactoring
@@ -268,8 +275,8 @@ Related to #related_issues
 
 ```bash
 # Good commits
-git commit -m "fix: brain - handle G4F provider timeout"
-git commit -m "feat: vision - add support for multi-screen"
+git commit -m "Fix: brain - handle G4F provider timeout"
+git commit -m "Feat: vision - add support for multi-screen"
 git commit -m "docs: readme - add Vietnamese translation"
 git commit -m "test: actions - add unit tests for mouse control"
 git commit -m "refactor: config - organize settings by category"
@@ -285,7 +292,7 @@ git commit -m "asdf"
 
 ```bash
 # ✓ Good - Logical commits
-git commit -m "feat: vision - add grid overlay to screenshots"
+git commit -m "Feat: vision - add grid overlay to screenshots"
 git commit -m "docs: vision - add grid documentation"
 
 # ✗ Bad - Too many things in one commit
@@ -320,9 +327,9 @@ git push origin feature/name -f
 Mô tả thay đổi của bạn
 
 ## Type of Change
-- [ ] Bug fix (fix without breaking changes)
+- [ ] Bug Fix (Fix without breaking changes)
 - [ ] New feature (new feature without breaking changes)
-- [ ] Breaking change (fix or feature causing breaking changes)
+- [ ] Breaking change (Fix or feature causing breaking changes)
 - [ ] Documentation
 
 ## How Has This Been Tested?
@@ -369,7 +376,13 @@ Sau khi approved:
 ```bash
 # Create venv
 python -m venv .venv
-source .venv/bin/activate  # hoặc .venv\Scripts\activate
+source .venv/bin/activate 
+
+# Windows
+.venv\Scripts\activate
+
+# macOS / Linux
+source .venv/bin/activate 
 
 # Install requirements
 pip install -r requirements.txt
@@ -424,7 +437,7 @@ pytest tests/
 
 # 5. Commit
 git add .
-git commit -m "feat: my awesome feature"
+git commit -m "Feat: my awesome feature"
 
 # 6. Push
 git push origin feature/my-feature
@@ -511,8 +524,14 @@ class TestActions:
 # Generate coverage report
 pytest tests/ --cov=. --cov-report=html
 
-# View report
+# Windows
+start htmlcov/index.html
+
+# macOS
 open htmlcov/index.html
+
+# Linux
+xdg-open htmlcov/index.html
 ```
 
 ---
@@ -600,13 +619,13 @@ def new_function(arg1: str, arg2: int) -> dict:
 
 ## 🎯 Feature Request Process
 
-Ingin add feature baru?
+Muốn thêm feature mới?
 
 ### 1. Check Issues
 
-Cek [Issues](https://github.com/yourusername/ai-agent-computer-use/issues) xem đã có ai propose không.
+Cek [Issues](https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use/issues) xem đã có ai propose không.
 
-### 2. Buka Issue
+### 2. Mở Issue
 
 ```markdown
 ## Feature Request: [Title]
@@ -646,9 +665,9 @@ Tìm bug?
 
 ### 1. Check Issues
 
-Xem [Issues](https://github.com/yourusername/ai-agent-computer-use/issues) đã report chưa.
+Xem [Issues](https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use/issues) đã report chưa.
 
-### 2. Buka Issue
+### 2. Mở Issue
 
 ```markdown
 ## Bug Report: [Title]
@@ -677,14 +696,14 @@ Cái gì diễn ra sai?
 Attach ảnh, logs, error messages
 
 ### Possible Solution
-Bạn có ý tưởng fix không?
+Bạn có ý tưởng Fix không?
 ```
 
 ### 3. Help Fix
 
 - Comment trên issue
 - Đề xuất solution
-- Create PR nếu bạn fix được
+- Create PR nếu bạn Fix được
 
 ---
 
@@ -731,18 +750,20 @@ Bạn có ý tưởng fix không?
 
 ## ✅ Checklist Trước Submit PR
 
-- [ ] Fork & branch created
-- [ ] Code changes made & tested
-- [ ] Code formatted (black .)
-- [ ] Linting passed (flake8 .)
-- [ ] Tests written & passed (pytest)
-- [ ] Docstrings added
-- [ ] Comments added if needed
-- [ ] README updated if needed
-- [ ] No breaking changes (unless discussed)
-- [ ] Commit messages clear
-- [ ] PR description filled
-- [ ] Related issues linked
+## ✅ Pull Request Checklist
+
+- [ ] Forked the repository and created a new branch
+- [ ] Code changes completed and tested
+- [ ] Code formatted successfully (`black .`)
+- [ ] Lint checks passed (`flake8 .`)
+- [ ] Tests added/updated and passing (`pytest`)
+- [ ] Docstrings added for new functions/classes
+- [ ] Comments added where necessary
+- [ ] README or documentation updated if required
+- [ ] No breaking changes introduced (or discussed beforehand)
+- [ ] Commit messages follow project conventions
+- [ ] Pull Request description completed
+- [ ] Related issues linked (`Fixes #123`)
 
 ---
 
@@ -751,7 +772,7 @@ Bạn có ý tưởng fix không?
 Cảm ơn bạn đóng góp cho dự án! 
 
 Bất kỳ câu hỏi nào:
-- Mở [Discussion](https://github.com/yourusername/ai-agent-computer-use/discussions)
+- Mở [Discussion](https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use/discussions)
 - Comment trên Issue
 - Email maintainers
 

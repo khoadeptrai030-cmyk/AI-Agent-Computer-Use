@@ -17,7 +17,7 @@ Hướng dẫn 5 phút để bắt đầu sử dụng AI Agent.
 
 ```bash
 # Clone project
-git clone https://github.com/yourusername/ai-agent-computer-use.git
+git clone https://github.com/khoadeptrai030-cmyk/ai-agent-computer-use.git
 cd ai-agent-computer-use
 
 # Tạo virtual environment
@@ -342,8 +342,8 @@ A: Chỉnh `config.py`, hoặc viết custom script dùng `brain.py` / `actions.
 - 📖 Đọc [README.md](./README.md)
 - 🔧 Xem [TROUBLESHOOTING.md](./TROUBLESHOOTING.md)
 - 📚 Xem [EXAMPLES.md](./EXAMPLES.md)
-- 🐛 [Report bug](https://github.com/yourusername/ai-agent-computer-use/issues)
-- 💬 [Join discussions](https://github.com/yourusername/ai-agent-computer-use/discussions)
+- 🐛 [Report bug](https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use/issues)
+- 💬 [Join discussions](https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use/discussions/1)
 
 ---
 

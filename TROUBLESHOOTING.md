@@ -826,10 +826,10 @@ Nếu vấn đề không liệt kê ở trên:
    ```
 
 2. **Search issues**
-   - [GitHub Issues](https://github.com/yourusername/ai-agent-computer-use/issues)
+   - [GitHub Issues](https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use/issues)
 
 3. **Ask community**
-   - [Discussions](https://github.com/yourusername/ai-agent-computer-use/discussions)
+   - [Discussions](https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use/discussions/1)
 
 4. **Create issue**
    ```markdown
@@ -866,7 +866,7 @@ Nếu vấn đề không liệt kê ở trên:
 Trước khi báo cáo issue:
 
 - [ ] Đã googled error message
-- [ ] Đã kiểm tra [Issues](https://github.com/yourusername/ai-agent-computer-use/issues) cũ
+- [ ] Đã kiểm tra [Issues](https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use/issues) cũ
 - [ ] Đã cập nhật package (`pip install --upgrade`)
 - [ ] Đã restart terminal/máy
 - [ ] Đã try solution trong troubleshooting này
@@ -874,6 +874,6 @@ Trước khi báo cáo issue:
 
 ---
 
-**Still stuck? Mở [Discussion](https://github.com/yourusername/ai-agent-computer-use/discussions) hoặc [Issue](https://github.com/yourusername/ai-agent-computer-use/issues) nhé! 🆘**
+**Still stuck? Mở [Discussion](https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use/discussions/1) hoặc [Issue](https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use/issues) nhé! 🆘**
 
 **Happy debugging! 🔧**
