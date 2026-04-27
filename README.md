@@ -38,13 +38,13 @@
 
 **AI Agent — Computer Use** là một dự án mã nguồn mở cho phép bạn tạo một AI agent tự động hóa **bất kỳ tác vụ nào** trên máy tính của bạn:
 
-- ✅ **Không cần API keys** — Sử dụng G4F (GPT4Free) — AI providers miễn phí
-- ✅ **Thị giác máy tính** — Chụp ảnh màn hình, phân tích bằng AI
-- ✅ **Điều khiển toàn bộ** — Click chuột, gõ bàn phím, mở ứng dụng
-- ✅ **Vòng lặp OODA** — Quan sát → Định hướng → Quyết định → Hành động
-- ✅ **Dashboard Web** — Giám sát real-time qua trình duyệt
-- ✅ **Hoàn toàn offline** — Chạy 100% trên máy của bạn
-- ✅ **An toàn** — Có nút dừng khẩn cấp (Emergency Stop)
+- ✅ **Không cần API keys** — Hoạt động với G4F (GPT4Free), tận dụng nhiều AI provider miễn phí.
+- ✅ **Thị giác máy tính** — Chụp và phân tích màn hình để nhận diện giao diện, nút bấm, nội dung hiển thị.
+- ✅ **Điều khiển máy tính** — Tự động click chuột, nhập văn bản, dùng phím tắt, mở ứng dụng và thao tác như người dùng thật.
+- ✅ **Vòng lặp OODA thông minh** — Quan sát → Phân tích → Ra quyết định → Hành động liên tục theo tác vụ.
+- ✅ **Web Dashboard** — Theo dõi màn hình, nhật ký hành động và trạng thái agent theo thời gian thực trên trình duyệt.
+- ✅ **Chạy cục bộ trên máy bạn** — Xử lý trực tiếp trên thiết bị, dễ kiểm soát và bảo mật hơn.
+- ✅ **Tính năng an toàn** — Hỗ trợ Emergency Stop, giới hạn bước chạy và cơ chế dừng khẩn cấp khi cần.
 
 **Ý tưởng**: Agent bạn một cách thông minh. Hãy cho nó một tác vụ, nó sẽ tự thực hiện như một người thật!
 
@@ -134,11 +134,11 @@ flask-socketio>=5.3.0           # Real-time updates
 
 ```bash
 # Clone project
-git clone https://github.com/yourusername/ai-agent-computer-use.git
-cd ai-agent-computer-use
+git clone https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use.git
+cd AI-Agent-Computer-Use
 
 # Hoặc tải zip
-# https://github.com/yourusername/ai-agent-computer-use/archive/refs/heads/main.zip
+# https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use/archive/refs/heads/main.zip
 ```
 
 ### Step 2: Tạo Virtual Environment (Khuyến nghị)
@@ -668,7 +668,7 @@ action = brain.analyze_and_decide(
 # Trên Linux - Chạy agent trong container
 docker run -it --rm --display=$DISPLAY \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
-  ai-agent-computer-use
+  AI-Agent-Computer-Use
 
 # Hoặc dùng virtual machine
 # VirtualBox → Tạo VM → Cài Python → Chạy agent
@@ -879,8 +879,8 @@ Chúng tôi rất hoan nghênh các đóng góp từ cộng đồng!
 
 ```bash
 # Clone repo
-git clone https://github.com/yourusername/ai-agent-computer-use.git
-cd ai-agent-computer-use
+git clone https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use
+cd AI-Agent-Computer-Use
 
 # Tạo virtual env
 python -m venv .venv
@@ -987,9 +987,9 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 ### Liên Hệ
 
-- **GitHub Issues**: [Report bugs here](https://github.com/yourusername/ai-agent-computer-use/issues)
-- **Discussions**: [Ask questions](https://github.com/yourusername/ai-agent-computer-use/discussions)
-- **Email**: your-email@example.com
+- **GitHub Issues**: [Report bugs here](https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use/issues)
+- **Discussions**: [Ask questions](https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use/discussions/1)
+- **Email**: khoadeptrai030@gmail.com
 
 ### Community
 
@@ -1042,7 +1042,7 @@ Cảm ơn tất cả những người đã đóng góp, báo cáo bugs, và hỗ
 
 *Giúp máy tính bạn tự động hóa, tự do hơn.*
 
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/ai-agent-computer-use?style=social)](https://github.com/yourusername/ai-agent-computer-use)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/ai-agent-computer-use?style=social)](https://github.com/yourusername/ai-agent-computer-use)
+[![GitHub Stars](https://img.shields.io/github/stars/khoadeptrai030-cmyk/AI-Agent-Computer-Use?style=social)](https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use)
+[![GitHub Forks](https://img.shields.io/github/forks/khoadeptrai030-cmyk/AI-Agent-Computer-Use?style=social)](https://github.com/khoadeptrai030-cmyk/AI-Agent-Computer-Use)
 
 </div>
