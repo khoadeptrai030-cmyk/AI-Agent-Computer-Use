@@ -23,7 +23,7 @@ Cảm ơn bạn quan tâm đến dự án này! Hướng dẫn này sẽ giúp b
 
 - [README.md](./README.md) - Hiểu project tổng quát
 - [GETTING_STARTED.md](./GETTING_STARTED.md) - Quick start
-- [DETAILED_INSTRUCTIONS](./INSTALLATION.md#-cài đặt) - cách cài đặt
+- [DETAILED_INSTRUCTIONS](./INSTALLATION.md) - cách cài đặt
 
 ### Hiểu Codebase
 
